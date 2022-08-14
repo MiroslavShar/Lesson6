@@ -3,7 +3,6 @@ import java.util.*;
 
 public class Main {
     List<String> list = new ArrayList<>();
-    String str = new String();
     List<String> list2 = new ArrayList<>();
 
 
@@ -23,8 +22,6 @@ public class Main {
 
        start.Clear(); // Метод удаления из списка всего
        start.IsEmpty(); // Метод проверки пустой ли список
-
-
 
     }
 
