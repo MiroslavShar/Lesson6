@@ -109,20 +109,7 @@ public class Main {
         return list3;
     }
 
-    /*public List Clone(){
-        List<String> list5 = (List<String>) list.clone();
 
-        return list5;
-    }
-
-     */
-
-    /*public List Sort(){
-
-        return list;
-    }
-
-     */
 
     public List IndexOf() {
         System.out.println(list.indexOf("iBuenos Dias"));
