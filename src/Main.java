@@ -9,16 +9,20 @@ public class Main {
 
     public static void main(String[] args) {
        Main start = new Main();
-       start.Add();
-       start.Remove();
-       start.Get();
-       start.Set();
-       start.Size();
-       start.Foreach();
-       start.AddAll();
-       start.Boolean();
-       start.RetainAll();
-       start.Clear();
+       start.Add(); // Метод добавления
+       start.Remove(); // Метод удаления
+       start.Get(); // Метод прочтения или получения значения
+       start.Set(); // Метод добавления значения в уже существующий элемент
+       start.Size(); // Метод получения количества элементов
+       start.Foreach(); // Метод форич
+       start.AddAll(); // Метод добавления в середину
+       start.Boolean(); // Метод проверки наличия объекта в списке
+       start.RetainAll(); // Метод удаляет все из зсписка, кроме значений в инициализации
+       start.IndexOf(); // Метод возвращает индекс первого вхождения элемента в списке. Если элемента не существует в списке, метод вернет -1.
+       start.IsEmpty(); // Метод проверки пустой ли список
+
+       start.Clear(); // Метод удаления из списка всего
+       start.IsEmpty(); // Метод проверки пустой ли список
 
 
 
@@ -122,6 +126,15 @@ public class Main {
     }
 
      */
-    
 
+    public List IndexOf() {
+        System.out.println(list.indexOf("iBuenos Dias"));
+        return list;
+    }
+
+    public List IsEmpty(){
+        System.out.println("Pustoj li spisok? " + list.isEmpty());
+
+        return list;
+    }
 }
